@@ -1,1 +1,59 @@
-hello!! world
+<index>
+	<head></head>
+	<style>
+		body {
+			background: black;
+		}
+		#postcard {
+			background: white;
+			padding: 10px;
+			margin: 10px;
+			display: flex;
+			width: 500px;
+			height: 300px;
+			margin: auto;
+		}
+		#leftside {
+			padding: 5px;
+		}
+		#rightside {
+			padding: 5px;
+		}
+        #logo{
+            width: 100px;
+            height: 100px;
+            position:relative;
+            right: 20px;
+        }
+        .button{
+            font-size: 18px;
+            background: gray;
+            padding:5px 10px 5px 10px
+        }
+        form input{
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            margin: 5px;
+        }
+	</style>
+	<body>
+		<div id="postcard">
+			<div id="leftside">
+				<h1>My Postcard</h1>
+				<p>Look how awesome! This is a postcard that I created using HTML5 and CSS3 during my 4Geeks Academy Course!</p>
+				<p>This is so cool, can't wait to start doing more stuff!</p>
+			</div>
+			<div id="rightside">
+				<img id="logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7tgJGVyIqDBY8j9FA8I1lI1_M5tno5L7NvQ&s"/>
+				<form>
+					<input name="name" title="Some Name" value="Some Name" />
+					<input name="email" title="Some Email" value="Some Email"/>
+					<input name="comment" title="Some Comment" value="Some Comment"/>
+                     <button class="button" type="button">Send My Postcard</button>
+				</form>
+			</div>
+		</div>
+	</body>
+</index>
+
